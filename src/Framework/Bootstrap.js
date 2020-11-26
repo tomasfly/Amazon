@@ -15,6 +15,8 @@ class Bootstrap {
     global.navigatedPages = this.navigatedPages
     global.currentPage = this.currentPage
     global.app = app
+    global.store = require('data-store')({ path: process.cwd() + '/temp.json' })
+
     const PagePath = require('../../src/Framework/BasePage')
     global.currentPage = new PagePath()
   }

@@ -7,6 +7,11 @@ class Page extends BasePage {
     return true
   }
 
+  async getText (friendlyName) {
+    const element = await super.getElement(friendlyName)
+    return await global.page.evaluate(element => element.textContent, element)
+  }
+
   async waitFor (selector) {
     const rawElement = super.getRawElement(selector)
     global.page.waitFor(rawElement)

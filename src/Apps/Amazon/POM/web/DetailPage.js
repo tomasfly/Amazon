@@ -12,6 +12,10 @@ class DetailPage extends NavigationBar {
       ref: '#quantity_1'
     },
     {
+      name: ['price', 'item price'],
+      ref: '#price_inside_buybox'
+    },
+    {
       name: ['add to cart', 'add item to cart'],
       ref: '#add-to-cart-button',
       onClick: 'NewItemsPage'
