@@ -14,7 +14,7 @@
 * eslint
 * data-store
 
-# Things to point out from the excercise
+# Things to point out from the exercise
 * Report is printed in console but also in JSON format in /reports/ folder which can be then handled as needed.
 * POM design pattern was implemented allowing to scale the framework to different platforms and applications.
 * There is a logical and a physical navigation through the framework which allows to store in memory each page object.
