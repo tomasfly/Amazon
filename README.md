@@ -1,3 +1,5 @@
+# Test automation solution with Puppeteer and Cucumber
+
 # Instructions
 
 1. Clone this repository
